@@ -1,0 +1,15 @@
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'joml_upgrade_tree_data.json'
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tell jsDelivr to fetch the newest data
+        run: curl -s https://purge.jsdelivr.net/gh/00siddhant00/JOMLGameData@main/joml_upgrade_tree_data.json
