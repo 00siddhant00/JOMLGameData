@@ -1,0 +1,1126 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "name": "ROOT",
+      "desc": "Starting node",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 1,
+      "costs": [
+        0
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "chain_length|U|2",
+        "number_of_crystals|L|2",
+        "unlock_du|R|3",
+        "time_bank|D|2"
+      ]
+    },
+    {
+      "id": "chain_length",
+      "name": "Chain Length",
+      "desc": "Extends the reach of your /c Chain c/. The line can stretch further from the last crystal to your cursor before snapping.\n\nIncrease max chain reach by /vm",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 10,
+      "costs": [
+        10,
+        20,
+        40,
+        80,
+        160,
+        320,
+        640,
+        1280,
+        2560,
+        5120
+      ],
+      "values": [
+        1.3,
+        1.475,
+        1.525,
+        1.575,
+        1.7,
+        1.825,
+        1.95,
+        2.075,
+        2.2,
+        2.325,
+        2.45
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": -5,
+      "uiY": 10,
+      "uiSize": 40,
+      "out": [
+        "miracle_matter|UL|2",
+        "short_fuse|UR|2",
+        "ego_unlock|U|7"
+      ]
+    },
+    {
+      "id": "number_of_crystals",
+      "name": "Number Of Crystals",
+      "desc": "More matter floods the Void.\n\nIncrease the number of /c Crystals c/ spawned per cycle by /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        90,
+        300,
+        1200,
+        3500,
+        8000
+      ],
+      "values": [
+        15,
+        27,
+        39,
+        51,
+        63,
+        75
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 50,
+      "out": [
+        "crystal_quality_to_green|L|2"
+      ]
+    },
+    {
+      "id": "connect_radius",
+      "name": "Connect Radius",
+      "desc": "Widens the area around your cursor that can link to /c Crystals c/.\n\nIncrease /c Connection Area c/ by /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 10,
+      "costs": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ],
+      "values": [
+        0.2,
+        0.23,
+        0.26,
+        0.29000000000000004,
+        0.32,
+        0.35,
+        0.38,
+        0.41000000000000003,
+        0.44,
+        0.47000000000000003,
+        0.5
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 90,
+      "out": []
+    },
+    {
+      "id": "miracle_matter",
+      "name": "Miracle Matter",
+      "desc": "Each /c Crystal c/ in a **chain of 3+** has a chance to spawn a /c New Crystal c/ when claimed.\n\nIncrease spawn chance by /v% per crystal",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 10,
+      "costs": [
+        700,
+        1400,
+        2800,
+        5600,
+        11200,
+        22400,
+        44800,
+        89600,
+        179200,
+        358400
+      ],
+      "values": [
+        0,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55
+      ],
+      "ignoreZero": true,
+      "fakePercent": true,
+      "uiX": -1.7,
+      "uiY": 0,
+      "uiSize": 66,
+      "out": [
+        "matter_multiplicity|UL|2",
+        "desperate_prayer|L|3"
+      ]
+    },
+    {
+      "id": "unlock_du",
+      "name": "Unlock Desire Unit",
+      "desc": "Unlock New Currency: DU\n\nTo get Desire Units you need to chase it with obsession.\nClaim Condition: Click on /c **DU Star**  c/ before they decay",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 1,
+      "costs": [
+        250000
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 85,
+      "out": [
+        "connect_radius|U|2",
+        "weaver_bots|UR|2",
+        "wish_for_a_falling_star|D|2"
+      ]
+    },
+    {
+      "id": "crystal_quality_to_green",
+      "name": "Crystal Quality To Green",
+      "desc": "Chance to spawn /c Crystals c/ of Green Quality.\nGreen crystals are worth 2x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        1000,
+        3000,
+        5000,
+        7000,
+        9000
+      ],
+      "values": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "crystal_quality_to_blue|DL|2"
+      ]
+    },
+    {
+      "id": "crystal_quality_to_blue",
+      "name": "Crystal Quality To Blue",
+      "desc": "Chance to spawn /c Crystals c/ of Blue Quality.\nBlue crystals are worth 3x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        9000,
+        27000,
+        45000,
+        63000,
+        81000
+      ],
+      "values": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "crystal_quality_to_purple|UL|2"
+      ]
+    },
+    {
+      "id": "crystal_quality_to_purple",
+      "name": "Crystal Quality To Purple",
+      "desc": "Chance to spawn /c Crystals c/ of Purple Quality.\nPurple crystals are worth 4x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        81000,
+        243000,
+        405000,
+        567000,
+        729000
+      ],
+      "values": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "crystal_quality_to_red|DL|2"
+      ]
+    },
+    {
+      "id": "crystal_quality_to_red",
+      "name": "Crystal Quality To Red",
+      "desc": "Chance to spawn /c Crystals c/ of Red Quality.\nRed crystals are worth 5x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "demo": true,
+      "currency": 1,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "time_bank",
+      "name": "Time Bank",
+      "desc": "Bends the clock in your favor.\n\nAdds flat bonus seconds to every cycle, regardless of investment.\n\nIncrease bonus time by /vs",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 3,
+      "costs": [
+        100,
+        10000,
+        1000000
+      ],
+      "values": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 90,
+      "out": [
+        "chronophagy|DL|2"
+      ]
+    },
+    {
+      "id": "chronophagy",
+      "name": "Chronophagy",
+      "desc": "Grants a chance to rip /c Time c/ straight out of the Void when claiming a chain of 3+ crystals, adding seconds back to the clock.\n\nIncrease chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 7,
+      "costs": [
+        5000,
+        10000,
+        20000,
+        40000,
+        80000,
+        160000,
+        320000
+      ],
+      "values": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 3.3,
+      "uiY": 0,
+      "uiSize": 44.51,
+      "out": [
+        "voracity|DL|2",
+        "gluttony_spike|D|3"
+      ]
+    },
+    {
+      "id": "voracity",
+      "name": "Voracity",
+      "desc": "Increases the efficiency of /c Chronophagy c/. Sets time restored per trigger to /v seconds.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 10,
+      "costs": [
+        12000,
+        36000,
+        60000,
+        84000,
+        108000,
+        132000,
+        156000,
+        180000,
+        204000,
+        228000
+      ],
+      "values": [
+        0,
+        0.2,
+        0.4,
+        0.6000000000000001,
+        0.8,
+        1,
+        1.2,
+        1.4000000000000001,
+        1.6,
+        1.8,
+        2
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 1.8,
+      "uiY": 0,
+      "uiSize": 46.27,
+      "out": []
+    },
+    {
+      "id": "temporal_recoil",
+      "name": "Temporal Recoil",
+      "desc": "Mastery over tension.\n\nSnapping a chain of 5+ links triggers a temporal recoil, refunding 3.0 seconds.",
+      "demo": true,
+      "currency": 3,
+      "out": [
+        "chaotic_god|UL|2"
+      ],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "gluttony_spike",
+      "name": "Gluttony Spike",
+      "desc": "A sudden spike in hunger.\nChance that /c Chronophagy c/ will grant triple the amount of Time.\n\nIncrease crit chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        15000,
+        45000,
+        75000,
+        105000,
+        135000
+      ],
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 2.7,
+      "uiSize": 48,
+      "out": []
+    },
+    {
+      "id": "matter_multiplicity",
+      "name": "Matter Multiplicity",
+      "desc": "Amplifies the /c Miracle Matter c/ reaction. When triggered, the Void will spawn multiple new crystals in place of the single one you claimed.\n\nIncrease miracle multiplier to /vx",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 3,
+      "costs": [
+        1500,
+        4500,
+        7500
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 70,
+      "out": []
+    },
+    {
+      "id": "alchemical_touch",
+      "name": "Alchemical Touch",
+      "desc": "Perfects the /c Miracle Matter c/ process.\n\nTriggered miracles will /c always c/ transmute into your /c Highest Unlocked Crystal Quality c/.",
+      "demo": true,
+      "currency": 3,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "desperate_prayer",
+      "name": "Desperate Prayer",
+      "desc": "Doubles the chance of Miracle Matter triggering when the timer will be below /v seconds.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 4,
+      "costs": [
+        1000,
+        2000,
+        4000,
+        8000
+      ],
+      "values": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": -1.31,
+      "uiY": 0.29,
+      "uiSize": 49.71,
+      "out": []
+    },
+    {
+      "id": "portal_duplication",
+      "name": "Portal Duplication",
+      "desc": "Tears the fabric of the Void, forcing the gateway to expand permanently.\nAll /c ZEK earnings c/ are multiplied as they pass through the rift.\n\nIncrease Global Earn Multiplier to /vx",
+      "demo": true,
+      "currency": 3,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "powder_cap",
+      "name": "Powder Cap",
+      "desc": "Increases the limit of your explosive potential.\n\nIncrease Max Volatility Multiplier to /vx",
+      "demo": true,
+      "currency": 1,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "short_fuse",
+      "name": "Short Fuse",
+      "desc": "Playing with fire.\nRapidly clearing Short Chains (under /c Spark Range c/) lights the fuse, generating /c Volatility c/.\n\nIncrease Volatility Generation to /vx per claim",
+      "demo": true,
+      "currency": 1,
+      "out": [
+        "spark_range|R|3",
+        "powder_cap|UR|2"
+      ],
+      "uiX": 1.42,
+      "uiY": 4.07,
+      "uiSize": 60
+    },
+    {
+      "id": "spark_range",
+      "name": "Spark Range",
+      "desc": "Improves ignition sensitivity.\nChains of higher lengths will now count as /c Short Chains c/ for generating Volatility.\n/c 2 crystals linked is minimum for a short chain c/\n\nIncrease Max Short-Chain Length to /v links",
+      "demo": true,
+      "currency": 1,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "unlock_gold",
+      "name": "Unlock Gold",
+      "desc": "Introduces a greedy anomaly.\n\nAllows /c **Gold Crystals** c/ to spawn, which double the final /c ZEK c/ value of the entire chain.",
+      "demo": true,
+      "currency": 3,
+      "out": [
+        "gold_frequency|U|2"
+      ],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "gold_frequency",
+      "name": "Gold Frequency",
+      "desc": "Increases the probability of the Gold anomaly occurring.\n\nIncrease Gold Spawn Rate by /v%",
+      "demo": true,
+      "currency": 1,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "temporal_anomaly",
+      "name": "Temporal Anomaly",
+      "desc": "Introduces a glitch in time.\n\nAllows **White Chronos Crystals** to spawn, which instantly add time to the clock on claim.",
+      "demo": true,
+      "currency": 3,
+      "out": [
+        "temp_1|UR|2"
+      ],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "weaver_bots",
+      "name": "Weaver Bots",
+      "desc": "Conjures a semi-sentient construct. A /c Weaver c/ orbits your cursor, automatically building and claiming its own crystal chains.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 1,
+      "costs": [
+        3
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 45,
+      "out": [
+        "weaver_swarm|DR|2",
+        "weaver_appetite|R|3",
+        "weaver_velocity|UR|2",
+        "weaver_reboot|D|3"
+      ]
+    },
+    {
+      "id": "weaver_swarm",
+      "name": "Weaver Swarm",
+      "desc": "Splits the consciousness of the construct.\n\nIncrease Active Weavers to /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 4,
+      "costs": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": -10.4,
+      "uiY": -16.3,
+      "uiSize": 34.55,
+      "out": []
+    },
+    {
+      "id": "weaver_appetite",
+      "name": "Weaver Appetite",
+      "desc": "Expands the Weaver's hunger, allowing it to hold more mass before needing to rest.\n\nIncrease Max Links per Burst to /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 4,
+      "costs": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "values": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": -21.3,
+      "uiY": 15.2,
+      "uiSize": 80.49,
+      "out": []
+    },
+    {
+      "id": "weaver_velocity",
+      "name": "Weaver Velocity",
+      "desc": "Accelerates the Weaver's movement speed and link calculation time.\n\nIncrease Weaver Speed by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 4,
+      "costs": [
+        6,
+        9,
+        12,
+        15
+      ],
+      "values": [
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 13.3,
+      "uiY": 18.3,
+      "uiSize": 83.79,
+      "out": []
+    },
+    {
+      "id": "weaver_reboot",
+      "name": "Weaver Reboot",
+      "desc": "Optimizes the reset cycle of the **Weaver Bots**.\n\nSet Weaver Resting Time to /vs",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 7,
+      "costs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "values": [
+        4.5,
+        4,
+        3.5,
+        3,
+        2.5,
+        2,
+        1.5,
+        1
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": -6.5,
+      "uiSize": 47.78,
+      "out": []
+    },
+    {
+      "id": "greed_amplifier",
+      "name": "Greed Amplifier",
+      "desc": "Refracts the value of matter through the color spectrum. Higher-quality crystals grant exponentially higher rewards than base matter.\n\nIncrease Tier Multipliers to /vx",
+      "demo": true,
+      "currency": 3,
+      "out": [
+        "temp_1_copy_4846|UL|2"
+      ],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "high_stakes",
+      "name": "High Stakes",
+      "desc": "Rewards arrogance. Unlocks massive Score Multipliers (2x, 5x, 25x) when the **Investment Slider** passes specific thresholds.",
+      "demo": true,
+      "currency": 3,
+      "out": [
+        "insurance_policy|UR|2"
+      ],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "ego_unlock",
+      "name": "Ego Unlock",
+      "desc": "Ego Unlock",
+      "demo": false,
+      "isUnlock": true,
+      "unlockAt": 5,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "alchemical_touch|DL|2",
+        "portal_duplication|DR|2",
+        "temporal_anomaly|UR|2",
+        "unlock_gold|U|3",
+        "temporal_recoil|UL|2",
+        "greed_amplifier|L|4",
+        "high_stakes|R|4"
+      ]
+    },
+    {
+      "id": "insurance_policy",
+      "name": "Insurance Policy",
+      "desc": "A safety net for the cowardly.\n\nRecovers a percentage of the Upfront Cost if an 'All-In' run fails.\n\nIncrease Refund Amount to /v",
+      "demo": true,
+      "currency": 3,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "chaotic_god",
+      "name": "Chaotic God",
+      "desc": "Profiting from anxiety.\n\nMultiplies chain value based on how close the line is to breaking (Red Tension Zone).\n\nIncrease Tension Bonus to /vx",
+      "demo": true,
+      "currency": 3,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "unlock_laser",
+      "name": "Unlock Laser",
+      "desc": "Weaponizes the portal. Unlocks the **Mining Laser**, a screen-clearing beam that vaporizes crystals for instant value.\n\nActivates when claiming chains of **3+ crystals**.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 1,
+      "costs": [
+        15
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 2.9,
+      "uiY": 4.9,
+      "uiSize": 65.86,
+      "out": [
+        "laser_width|R|2",
+        "laser_chance|D|2",
+        "greedy_laser|U|2"
+      ]
+    },
+    {
+      "id": "laser_chance",
+      "name": "Laser Chance",
+      "desc": "Automates the targeting system. Adds a chance to trigger the Laser on claim *of more than 3 crystals*.\n\nIncrease Trigger Chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 5,
+      "costs": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "values": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 5.7,
+      "uiY": 6.7,
+      "uiSize": 64.07,
+      "out": []
+    },
+    {
+      "id": "laser_width",
+      "name": "Laser Width",
+      "desc": "Widens the aperture of the weapon.\n\nIncrease Beam Width to /vx",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 4,
+      "costs": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "greedy_laser",
+      "name": "Greedy Laser",
+      "desc": "Zek claimed by /c Laser c/ has its value multiplied.\n\nIncrease the gain by /vx",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 10,
+      "costs": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30
+      ],
+      "values": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 50,
+      "out": []
+    },
+    {
+      "id": "wish_for_a_falling_star",
+      "name": "Wish For A Falling Star",
+      "desc": "The wait is shorter.\n/c DU Stars c/ appear more frequently during cycles. \n\nIncrease spawn frequency by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 8,
+      "costs": [
+        150000,
+        300000,
+        450000,
+        600000,
+        750000,
+        900000,
+        1500000,
+        3000000
+      ],
+      "values": [
+        0,
+        12.5,
+        25,
+        37.5,
+        50,
+        62.5,
+        75,
+        87.5,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 55,
+      "out": [
+        "eye_of_a_poet|D|2"
+      ]
+    },
+    {
+      "id": "eye_of_a_poet",
+      "name": "Eye Of A Poet",
+      "desc": "Allows you the privilege of gazing upon the /c DU Star c/ for a little while longer.\n\nSet /c DU Star c/ lifetime to /vs",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 10,
+      "costs": [
+        30000,
+        60000,
+        120000,
+        240000,
+        480000,
+        960000,
+        1920000,
+        3840000,
+        7680000,
+        15360000
+      ],
+      "values": [
+        1,
+        1.4,
+        1.7999999999999998,
+        2.1999999999999997,
+        2.5999999999999996,
+        2.9999999999999996,
+        3.3999999999999995,
+        3.7999999999999994,
+        4.199999999999999,
+        4.6,
+        4.999999999999999
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 41.27,
+      "out": [
+        "twin_yield|R|2",
+        "critical_obsession|D|2"
+      ]
+    },
+    {
+      "id": "twin_yield",
+      "name": "Twin Yield",
+      "desc": "/c **The Desire** c/ for more /c Desire c/.\n\nIncrease the chance to yield double DU by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 7,
+      "costs": [
+        150000,
+        225000,
+        300000,
+        375000,
+        450000,
+        525000,
+        600000
+      ],
+      "values": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 61.35,
+      "out": [
+        "unlock_laser|R|2"
+      ]
+    },
+    {
+      "id": "critical_obsession",
+      "name": "Critical Obsession",
+      "desc": "If you click the /c DU Star c/ within the first /v seconds of it spawning, gain **Triple Rewards**.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        100000,
+        150000,
+        200000,
+        250000,
+        300000
+      ],
+      "values": [
+        0,
+        0.5,
+        0.75,
+        1,
+        1.25,
+        1.5
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 90,
+      "out": []
+    },
+    {
+      "id": "temp_1",
+      "name": "Temp 1",
+      "desc": "something",
+      "demo": true,
+      "currency": 1,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    },
+    {
+      "id": "temp_1_copy_4846",
+      "name": "Temp 1",
+      "desc": "something",
+      "demo": true,
+      "currency": 1,
+      "out": [],
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0
+    }
+  ]
+}
