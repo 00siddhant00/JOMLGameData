@@ -325,7 +325,7 @@
       "desc": "Bends the clock in your favor.\n\nAdds flat bonus seconds to every cycle, regardless of investment.\n\nIncrease bonus time by /vs",
       "demo": false,
       "isUnlock": false,
-      "currency": 1,
+      "currency": 4,
       "max": 3,
       "costs": [
         100,
@@ -353,7 +353,7 @@
       "desc": "Grants a chance to rip /c Time c/ straight out of the Void when claiming a chain of 3+ crystals, adding seconds back to the clock.\n\nIncrease chance by /v%",
       "demo": false,
       "isUnlock": false,
-      "currency": 1,
+      "currency": 4,
       "max": 7,
       "costs": [
         5000,
@@ -390,7 +390,7 @@
       "desc": "Increases the efficiency of /c Chronophagy c/. Sets time restored per trigger to /v seconds.",
       "demo": false,
       "isUnlock": false,
-      "currency": 1,
+      "currency": 4,
       "max": 10,
       "costs": [
         12000,
@@ -443,7 +443,7 @@
       "desc": "A sudden spike in hunger.\nChance that /c Chronophagy c/ will grant triple the amount of Time.\n\nIncrease crit chance by /v%",
       "demo": false,
       "isUnlock": false,
-      "currency": 1,
+      "currency": 4,
       "max": 5,
       "costs": [
         15000,
