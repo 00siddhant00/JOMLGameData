@@ -24,7 +24,7 @@
         "chain_length|U|2",
         "number_of_crystals|L|2",
         "unlock_du|R|3",
-        "time_bank|D|2"
+        "mooch_the_envious|D|4"
       ]
     },
     {
@@ -100,7 +100,7 @@
       "uiY": 0,
       "uiSize": 50,
       "out": [
-        "crystal_quality_to_green|L|2"
+        "crystal_quality_to_green|UL|2"
       ]
     },
     {
@@ -344,7 +344,7 @@
       "uiY": 0,
       "uiSize": 90,
       "out": [
-        "chronophagy|DL|2"
+        "chronophagy|L|2"
       ]
     },
     {
@@ -380,8 +380,8 @@
       "uiY": 0,
       "uiSize": 44.51,
       "out": [
-        "voracity|DL|2",
-        "gluttony_spike|D|3"
+        "voracity|L|3",
+        "gluttony_spike|DL|2"
       ]
     },
     {
@@ -1121,6 +1121,498 @@
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0
+    },
+    {
+      "id": "mooch_the_envious",
+      "name": "Mooch The Envious",
+      "desc": "Summons /c Mooch c/, an alien parasite of pure /c Envy c/. \n\nHe autonomously devours your /c Zek c/ to build a massive internal multiplier. Slash his limbs to trim his mass, or strip him down completely to layer zero to slay him and extract his hoarded /c NV c/.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 1,
+      "costs": [
+        100000
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "time_bank|L|2",
+        "envys_edge|D|2"
+      ]
+    },
+    {
+      "id": "pin_of_envy",
+      "name": "Pin Of Envy",
+      "desc": "Gain after slaying Mooch. Grants a magical spatial anchor.\n\nContextual input: \nRight-click while idle to place the Pin anywhere. \n\nRight-click while drawing a chain to instantly snap the connection to the anchor, bypassing all physical distance and elasticity limits. \n\nGained Pins last for current play cycle.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 1,
+      "costs": [
+        1000
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "pin_slots|R|2"
+      ]
+    },
+    {
+      "id": "pin_slots",
+      "name": "Pin Slots",
+      "desc": "Increases the maximum inventory of Pins by /v% you can hold and deploy on the board at any given time.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 2,
+      "costs": [
+        10000,
+        100000
+      ],
+      "values": [
+        1,
+        2,
+        3
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "pin_durability|R|3",
+        "royal_pin|DR|2"
+      ]
+    },
+    {
+      "id": "pin_durability",
+      "name": "Pin Durability",
+      "desc": "Number of times a deployed Pin can be used before it shatters.\n\nIncrease the durability by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 4,
+      "costs": [
+        1000,
+        5000,
+        25000,
+        125000
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "royal_pin",
+      "name": "Royal Pin",
+      "desc": "The ultimate greed enabler.\n\nSignificantly increases the multiplier value of the entire chain if it is successfully routed through a Pin.\n\nIncrease the multiplier by /vx\n",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 10,
+      "costs": [
+        10000,
+        20000,
+        40000,
+        80000,
+        160000,
+        320000,
+        640000,
+        1280000,
+        2560000,
+        5120000
+      ],
+      "values": [
+        1,
+        1.3,
+        1.6,
+        1.9,
+        2.2,
+        2.5,
+        2.8,
+        3.1,
+        3.4,
+        3.6999999999999997,
+        4
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "jealousys_tax",
+      "name": "Jealousys Tax",
+      "desc": "Every time you click to trim a limb off Mooch, there is a /v% chance to steal his current internal multiplier and apply it directly to your next chain.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 1,
+      "costs": [
+        100
+      ],
+      "values": [
+        10,
+        11.2
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "lucky_theft",
+      "name": "Lucky Theft",
+      "desc": "A safety net for the greedy. If you stretch too far and the chain snaps, there is a /v% chance it instantly cashes out a percentage of the broken chain instead of destroying it completely.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 20,
+      "costs": [
+        5000,
+        25000,
+        45000,
+        65000,
+        85000,
+        105000,
+        125000,
+        145000,
+        165000,
+        185000,
+        205000,
+        225000,
+        245000,
+        265000,
+        285000,
+        305000,
+        325000,
+        345000,
+        365000,
+        385000
+      ],
+      "values": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "theft_mastery|R|2"
+      ]
+    },
+    {
+      "id": "theft_mastery",
+      "name": "Theft Mastery",
+      "desc": "Dictates the exact payout of Lucky Theft. \n\nSecures /v% of the broken chain's total crystal value when Lucky Theft is triggered.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 4,
+      "costs": [
+        5000,
+        25000,
+        125000,
+        625000
+      ],
+      "values": [
+        10,
+        20,
+        30,
+        40,
+        50
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "envys_edge",
+      "name": "Envy's Edge",
+      "desc": "Sharpens your slash to deal heavier base damage to /c Mooch c/. Each slash amputates multiple limbs simultaneously to trim his mass faster.\n\nIncrease limbs removed per click by /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        100000,
+        200000,
+        400000,
+        800000,
+        1600000
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "jealousys_tax|L|3",
+        "surgical_sever|D|2",
+        "pin_of_envy|DR|2"
+      ]
+    },
+    {
+      "id": "surgical_sever",
+      "name": "Surgical Sever",
+      "desc": "Each slash against /c Mooch c/ has a chance to deal double damage, stripping twice the mass in a single strike.\n\nIncrease double damage chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 20,
+      "costs": [
+        20000,
+        100000,
+        180000,
+        260000,
+        340000,
+        420000,
+        500000,
+        580000,
+        660000,
+        740000,
+        820000,
+        900000,
+        980000,
+        1060000,
+        1140000,
+        1220000,
+        1300000,
+        1380000,
+        1460000,
+        1540000
+      ],
+      "values": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "guillotine|D|3",
+        "infestation|DL|2",
+        "neural_shock|L|3"
+      ]
+    },
+    {
+      "id": "guillotine",
+      "name": "Guillotine",
+      "desc": "Each slash against /c Mooch c/ has a low chance to trigger a critical strike, instantly shattering and destroying his entire active layer.\n\nIncrease critical strike chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 10,
+      "costs": [
+        30000,
+        60000,
+        120000,
+        240000,
+        480000,
+        960000,
+        1920000,
+        3840000,
+        7680000,
+        15360000
+      ],
+      "values": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "lucky_theft|R|2"
+      ]
+    },
+    {
+      "id": "infestation",
+      "name": "Infestation",
+      "desc": "Allows additional instances of /c Mooch c/ to spawn per phase, multiplying both the chaos on the board and your potential /c NV c/ yields.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 4,
+      "costs": [
+        100000,
+        1000000,
+        10000000,
+        100000000
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "neural_shock",
+      "name": "Neural Shock",
+      "desc": "Each slash against /c Mooch c/ has a chance to stun him, temporarily halting his movement and preventing him from devouring /c Zek c/.\n\nIncrease stun chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 10,
+      "costs": [
+        50000,
+        100000,
+        200000,
+        400000,
+        800000,
+        1600000,
+        3200000,
+        6400000,
+        12800000,
+        25600000
+      ],
+      "values": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "paralytic_grip|L|3"
+      ]
+    },
+    {
+      "id": "paralytic_grip",
+      "name": "Paralytic Grip",
+      "desc": "Increases the duration of the stun effect applied by /c Neural Shock c/, leaving the parasite helpless for longer.\n\nIncrease stun duration by /v seconds",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 3,
+      "costs": [
+        100000,
+        1000000,
+        10000000
+      ],
+      "values": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
     }
   ]
 }
