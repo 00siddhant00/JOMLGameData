@@ -1515,7 +1515,9 @@
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
-      "out": []
+      "out": [
+        "sloppy_eater|D|2"
+      ]
     },
     {
       "id": "infestation",
@@ -1605,6 +1607,36 @@
         1,
         2,
         3
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "sloppy_eater",
+      "name": "Sloppy Eater",
+      "desc": "Forces your parasite to poop.\n\nEvery time /c Mooch c/ successfully devours a /c Zek c/, there is a chance he poops an /c EAT c/ blob. The amount of /c EAT c/ blobs generated scales with the quality of the swallowed crystal.\n\nIncrease poop chance by /v%",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 6,
+      "max": 5,
+      "costs": [
+        5000,
+        10000,
+        20000,
+        40000,
+        80000
+      ],
+      "values": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
       ],
       "ignoreZero": true,
       "fakePercent": false,
