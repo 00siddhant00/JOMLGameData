@@ -1179,15 +1179,23 @@
       "demo": false,
       "isUnlock": false,
       "currency": 6,
-      "max": 2,
+      "max": 6,
       "costs": [
+        1000,
         10000,
-        100000
+        100000,
+        1000000,
+        10000000,
+        100000000
       ],
       "values": [
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        6,
+        7
       ],
       "ignoreZero": false,
       "fakePercent": false,
