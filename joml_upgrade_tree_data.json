@@ -381,7 +381,7 @@
       "uiSize": 44.51,
       "out": [
         "voracity|DL|2",
-        "gluttony_spike|L|2"
+        "gluttony_spike|L|3"
       ]
     },
     {
@@ -1194,7 +1194,7 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "pin_durability|D|2",
+        "pin_durability|R|3",
         "royal_pin|DR|2"
       ]
     },
@@ -1407,8 +1407,8 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "jealousys_tax|L|2",
-        "surgical_sever|D|2",
+        "jealousys_tax|DL|2",
+        "surgical_sever|D|3",
         "pin_of_envy|DR|2"
       ]
     },
