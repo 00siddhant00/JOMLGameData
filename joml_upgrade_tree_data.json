@@ -1175,7 +1175,7 @@
     {
       "id": "pin_slots",
       "name": "Pin Slots",
-      "desc": "Increases the maximum inventory of Pins by /v% you can hold and deploy on the board at any given time.",
+      "desc": "Increases the maximum inventory of Pins to /v you can hold and deploy on the board at any given time.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1195,32 +1195,34 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "pin_durability|R|3",
+        "pin_probability|R|3",
         "royal_pin|DR|2"
       ]
     },
     {
-      "id": "pin_durability",
-      "name": "Pin Durability",
-      "desc": "Number of times a deployed Pin can be used before it shatters.\n\nIncrease the durability by /v%",
+      "id": "pin_probability",
+      "name": "Pin Probability",
+      "desc": "Chance to get extra pin on killing mooch\n\nIncrease the probability by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
-      "max": 4,
+      "max": 5,
       "costs": [
-        1000,
-        5000,
-        25000,
-        125000
+        2000,
+        10000,
+        50000,
+        250000,
+        1250000
       ],
       "values": [
-        1,
-        2,
-        3,
-        4,
-        5
+        0,
+        10,
+        20,
+        30,
+        40,
+        50
       ],
-      "ignoreZero": false,
+      "ignoreZero": true,
       "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
@@ -1591,7 +1593,7 @@
     {
       "id": "paralytic_grip",
       "name": "Paralytic Grip",
-      "desc": "Increases the duration of the stun effect applied by /c Neural Shock c/, leaving the parasite helpless for longer.\n\nIncrease stun duration by /v seconds",
+      "desc": "Increases the duration of the stun effect applied by /c Neural Shock c/, leaving the parasite helpless for longer.\n\nIncrease stun duration by /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
