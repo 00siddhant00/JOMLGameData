@@ -951,7 +951,9 @@
       "uiX": 0,
       "uiY": 0,
       "uiSize": 50,
-      "out": []
+      "out": [
+        "greedy_god|R|3"
+      ]
     },
     {
       "id": "wish_for_a_falling_star",
@@ -1821,6 +1823,60 @@
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "greedy_god",
+      "name": "Greedy God",
+      "desc": "The portal demands a sacrifice. \n\nUpon collecting enough individual crystals, the portal violently tethers and consumes every active Zek on the screen by calling out upon its mechanical tentacle chains.\n\nFill the Godly Bar to trigger Greedy God.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 1,
+      "costs": [
+        100
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 2.9,
+      "uiY": 4.9,
+      "uiSize": 65.86,
+      "out": [
+        "godly_bar|UR|2"
+      ]
+    },
+    {
+      "id": "godly_bar",
+      "name": "Godly Bar",
+      "desc": "Decrease the amount of ZEK need to be claimed to fill the full bar and trigger Greedy God.\n\nThe zek claimed doesn't need to be in a single chain but can be over multiple claimed zek chains.\n\nDecrease the amount by /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 5,
+      "costs": [
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "values": [
+        100,
+        90,
+        80,
+        70,
+        60,
+        50
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 5.7,
+      "uiY": 6.7,
+      "uiSize": 64.07,
       "out": []
     }
   ]
