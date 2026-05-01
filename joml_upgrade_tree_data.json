@@ -1219,12 +1219,12 @@
         1250000
       ],
       "values": [
-        10,
-        20,
-        30,
-        40,
-        50,
-        60
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
       ],
       "ignoreZero": false,
       "fakePercent": false,
