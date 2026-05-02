@@ -67,8 +67,8 @@
       "uiSize": 40,
       "out": [
         "miracle_matter|UL|2",
-        "short_fuse|UR|2",
-        "ego_unlock|U|7"
+        "ego_unlock|U|7",
+        "unlock_ash|UR|2"
       ]
     },
     {
@@ -547,37 +547,70 @@
       "id": "powder_cap",
       "name": "Powder Cap",
       "desc": "Increases the limit of your explosive potential.\n\nIncrease Max Volatility Multiplier to /vx",
-      "demo": true,
-      "currency": 1,
-      "out": [],
+      "demo": false,
+      "isUnlock": false,
+      "currency": 2,
+      "max": 1,
+      "costs": [
+        100
+      ],
+      "values": [
+        10,
+        1.2
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "short_fuse",
       "name": "Short Fuse",
       "desc": "Playing with fire.\nRapidly clearing Short Chains (under /c Spark Range c/) lights the fuse, generating /c Volatility c/.\n\nIncrease Volatility Generation to /vx per claim",
-      "demo": true,
-      "currency": 1,
+      "demo": false,
+      "isUnlock": false,
+      "currency": 2,
+      "max": 1,
+      "costs": [
+        100
+      ],
+      "values": [
+        10,
+        1.2
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 1.42,
+      "uiY": 4.07,
+      "uiSize": 60,
       "out": [
         "spark_range|R|3",
         "powder_cap|UR|2"
-      ],
-      "uiX": 1.42,
-      "uiY": 4.07,
-      "uiSize": 60
+      ]
     },
     {
       "id": "spark_range",
       "name": "Spark Range",
       "desc": "Improves ignition sensitivity.\nChains of higher lengths will now count as /c Short Chains c/ for generating Volatility.\n/c 2 crystals linked is minimum for a short chain c/\n\nIncrease Max Short-Chain Length to /v links",
-      "demo": true,
-      "currency": 1,
-      "out": [],
+      "demo": false,
+      "isUnlock": false,
+      "currency": 2,
+      "max": 1,
+      "costs": [
+        100
+      ],
+      "values": [
+        10,
+        1.2
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "unlock_gold",
@@ -1929,6 +1962,174 @@
         1
       ],
       "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "unlock_ash",
+      "name": "Unlock ASH",
+      "desc": "Unlock New Currency: ASH\n\nHold cursor over Ashtroid till it catches fire, and then burn Zek to convert them to ash",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 1,
+      "costs": [
+        500
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 85,
+      "out": [
+        "ignition_speed|UR|2",
+        "flame_duration|R|3"
+      ]
+    },
+    {
+      "id": "ignition_speed",
+      "name": "Ignition Speed",
+      "desc": "Decreases the agonizing hold time on the asteroid so the cursor catches on fire faster.\n\nDecrease the duration to /vs",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 3,
+      "costs": [
+        1000000,
+        2000000,
+        4000000
+      ],
+      "values": [
+        5,
+        4,
+        3,
+        2
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "ashteroid_count|UR|2",
+        "wrath_expension|R|3"
+      ]
+    },
+    {
+      "id": "flame_duration",
+      "name": "Flame Duration",
+      "desc": "Increases the total time the cursor stays ignited after the charge-up.\n\nIncrease the duration by /vs",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 3,
+      "costs": [
+        1000000,
+        2000000,
+        4000000
+      ],
+      "values": [
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "ashteroid_count",
+      "name": "Ashteroid Count",
+      "desc": "Increases the initial spawn of the Ashteroids appearing in the orbital band.\n\nIncrease the base to /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 3,
+      "costs": [
+        1000000,
+        2000000,
+        4000000
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "explosion_purity|UR|2"
+      ]
+    },
+    {
+      "id": "wrath_expension",
+      "name": "Wrath Expension",
+      "desc": "Expands the collision radius of the flaming cursor. Instead of needing pixel-perfect contact, the cursor projects a burning aura that detonates crystals simply by passing near them.\n\nIncrease multiplier when Ignited by /vx",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 4,
+      "costs": [
+        10000000,
+        30000000,
+        90000000,
+        270000000
+      ],
+      "values": [
+        1,
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": [
+        "short_fuse|UR|2"
+      ]
+    },
+    {
+      "id": "explosion_purity",
+      "name": "Explosion Purity",
+      "desc": "Refine the /c ZEK c/ explosion process more pure resulting in better ASH extraction.\n\nIncrease ASH gained per explosion by /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 1,
+      "max": 5,
+      "costs": [
+        2000000,
+        4000000,
+        8000000,
+        16000000,
+        32000000
+      ],
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ignoreZero": false,
       "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
