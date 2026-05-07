@@ -2013,7 +2013,8 @@
       "uiY": 4.9,
       "uiSize": 65.86,
       "out": [
-        "godly_bar|UR|2"
+        "godly_bar|UR|2",
+        "godly_multiplier|DR|2"
       ]
     },
     {
@@ -2384,6 +2385,46 @@
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "godly_multiplier",
+      "name": "Godly Multiplier",
+      "desc": "Zek claimed by /c Greedy God c/ has its value multiplied.\n\nIncrease the gain by /vx",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 10,
+      "costs": [
+        10,
+        30,
+        50,
+        70,
+        90,
+        110,
+        130,
+        150,
+        170,
+        200
+      ],
+      "values": [
+        1,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 5.7,
+      "uiY": 6.7,
+      "uiSize": 64.07,
       "out": []
     }
   ]
