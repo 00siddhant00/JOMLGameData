@@ -497,12 +497,23 @@
       "id": "alchemical_touch",
       "name": "Alchemical Touch",
       "desc": "Perfects the /c Miracle Matter c/ process.\n\nTriggered miracles will /c always c/ transmute into your /c Highest Unlocked Crystal Quality c/.",
-      "demo": true,
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [],
+      "max": 1,
+      "costs": [
+        5
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "desperate_prayer",
@@ -535,13 +546,24 @@
     {
       "id": "portal_duplication",
       "name": "Portal Duplication",
-      "desc": "Tears the fabric of the Void, forcing the gateway to expand permanently.\nAll /c ZEK earnings c/ are multiplied as they pass through the rift.\n\nIncrease Global Earn Multiplier to /vx",
-      "demo": true,
+      "desc": "Tears the fabric of the Void, forcing the gateway to expand beyond control.\n\nDoubles all /c ZEK earnings c/ as they pass through the rift.",
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [],
+      "max": 1,
+      "costs": [
+        500
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "powder_cap",
@@ -841,28 +863,54 @@
     {
       "id": "greed_amplifier",
       "name": "Greed Amplifier",
-      "desc": "Refracts the value of matter through the color spectrum. Higher-quality crystals grant exponentially higher rewards than base matter.\n\nIncrease Tier Multipliers to /vx",
-      "demo": true,
+      "desc": "Refracts the value of matter through the color spectrum. Higher-quality crystals grant exponentially higher rewards than base multiplier.\n\nIncrease Tier Multipliers to /vx",
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [
-        "temp_1_copy_4846|UL|2"
+      "max": 3,
+      "costs": [
+        25,
+        100,
+        300
       ],
+      "values": [
+        1,
+        10,
+        50,
+        100
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": [
+        "temp_1_copy_4846|UL|2"
+      ]
     },
     {
       "id": "high_stakes",
       "name": "High Stakes",
-      "desc": "Rewards arrogance. Unlocks massive Score Multipliers (2x, 5x, 25x) when the **Investment Slider** passes specific thresholds.",
-      "demo": true,
+      "desc": "Arrogance pays well… until it doesn’t. \n\nDoubles all EGO gained from successful bets, but failures strike twice as hard.",
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [
-        "insurance_policy|UR|2"
+      "max": 1,
+      "costs": [
+        75
       ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": [
+        "insurance_policy|UR|2"
+      ]
     },
     {
       "id": "ego_unlock",
