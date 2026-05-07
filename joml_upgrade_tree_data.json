@@ -682,25 +682,55 @@
       "id": "unlock_gold",
       "name": "Unlock Gold",
       "desc": "Introduces a greedy anomaly.\n\nAllows /c **Gold Crystals** c/ to spawn, which double the final /c ZEK c/ value of the entire chain.",
-      "demo": true,
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [
-        "gold_frequency|U|2"
+      "max": 1,
+      "costs": [
+        75
       ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": [
+        "gold_frequency|U|2"
+      ]
     },
     {
       "id": "gold_frequency",
       "name": "Gold Frequency",
       "desc": "Increases the probability of the Gold anomaly occurring.\n\nIncrease Gold Spawn Rate by /v%",
-      "demo": true,
-      "currency": 1,
-      "out": [],
+      "demo": false,
+      "isUnlock": false,
+      "currency": 3,
+      "max": 5,
+      "costs": [
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "values": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "temporal_anomaly",
@@ -709,7 +739,7 @@
       "demo": true,
       "currency": 3,
       "out": [
-        "temp_1|UR|2"
+        "time_leaps|UR|2"
       ],
       "uiX": 0,
       "uiY": 0,
@@ -1228,15 +1258,30 @@
       "out": []
     },
     {
-      "id": "temp_1",
-      "name": "Temp 1",
-      "desc": "something",
-      "demo": true,
-      "currency": 1,
-      "out": [],
+      "id": "time_leaps",
+      "name": "Time Leaps",
+      "desc": "Increase the amount of time added by Chronos Crystals by /vs",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 3,
+      "max": 3,
+      "costs": [
+        100,
+        250,
+        400
+      ],
+      "values": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "temp_1_copy_4846",
