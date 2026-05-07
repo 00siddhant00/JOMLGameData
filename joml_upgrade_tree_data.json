@@ -736,14 +736,25 @@
       "id": "temporal_anomaly",
       "name": "Temporal Anomaly",
       "desc": "Introduces a glitch in time.\n\nAllows **White Chronos Crystals** to spawn, which instantly add time to the clock on claim.",
-      "demo": true,
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [
-        "time_leaps|UR|2"
+      "max": 1,
+      "costs": [
+        200
       ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": [
+        "time_leaps|UR|2"
+      ]
     },
     {
       "id": "weaver_bots",
