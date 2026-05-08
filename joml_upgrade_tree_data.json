@@ -976,13 +976,24 @@
     {
       "id": "insurance_policy",
       "name": "Insurance Policy",
-      "desc": "A safety net for the cowardly.\n\nRecovers a percentage of the Upfront Cost if an 'All-In' run fails.\n\nIncrease Refund Amount to /v",
-      "demo": true,
+      "desc": "Even self-destruction bends the knee to your ego. \n\nIf a ‘Suicide (2x)’ run fails, only half the EGO is lost.",
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [],
+      "max": 1,
+      "costs": [
+        250
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "chaotic_god",
@@ -2408,7 +2419,7 @@
         200
       ],
       "values": [
-        1,
+        0,
         10,
         20,
         30,
