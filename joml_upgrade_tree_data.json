@@ -2685,7 +2685,7 @@
       "uiSize": 0,
       "out": [
         "conductivity|L|3",
-        "arc_reach|UL|2",
+        "arc_reach|UL|3",
         "strike_cap|U|3"
       ]
     },
@@ -2712,7 +2712,7 @@
         4,
         5,
         6,
-        7
+        100
       ],
       "ignoreZero": false,
       "fakePercent": false,
