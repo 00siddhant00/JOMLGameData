@@ -617,7 +617,7 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "detonation|UR|2"
+        "detonation|R|3"
       ]
     },
     {
@@ -649,8 +649,8 @@
       "uiY": 4.07,
       "uiSize": 60,
       "out": [
-        "spark_range|R|2",
-        "powder_cap|D|4"
+        "spark_range|UR|2",
+        "powder_cap|D|2"
       ]
     },
     {
@@ -684,7 +684,7 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "slow_burn|U|2"
+        "slow_burn|R|3"
       ]
     },
     {
