@@ -617,7 +617,7 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "detonation|R|2"
+        "detonation|UR|2"
       ]
     },
     {
@@ -650,7 +650,7 @@
       "uiSize": 60,
       "out": [
         "spark_range|R|2",
-        "powder_cap|DR|2"
+        "powder_cap|D|4"
       ]
     },
     {
@@ -848,7 +848,7 @@
       "uiSize": 80.49,
       "out": [
         "greedy_weaver|DR|2",
-        "prism_weaver|UR|2"
+        "prism_weaver|R|3"
       ]
     },
     {
@@ -2394,7 +2394,7 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "detonation_trigger|D|2"
+        "detonation_trigger|R|3"
       ]
     },
     {
@@ -2487,7 +2487,9 @@
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
-      "out": []
+      "out": [
+        "prism_area|R|3"
+      ]
     },
     {
       "id": "greedy_weaver",
@@ -2504,11 +2506,37 @@
         300
       ],
       "values": [
+        0,
         100,
-        300,
-        500,
+        400,
         700,
         1000
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "prism_area",
+      "name": "Prism Area",
+      "desc": "Increase the radius Prism Weaver takes effect in by /v",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 3,
+      "costs": [
+        100,
+        200,
+        300
+      ],
+      "values": [
+        0.8,
+        1.2000000000000002,
+        1.6000000000000003,
+        2.0000000000000004
       ],
       "ignoreZero": false,
       "fakePercent": false,
