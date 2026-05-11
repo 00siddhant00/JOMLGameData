@@ -2696,23 +2696,15 @@
       "demo": false,
       "isUnlock": false,
       "currency": 1,
-      "max": 6,
+      "max": 2,
       "costs": [
-        50000,
-        125000,
-        200000,
-        275000,
-        350000,
-        425000
+        100000,
+        1000000
       ],
       "values": [
         1,
         2,
-        3,
-        4,
-        5,
-        6,
-        7
+        3
       ],
       "ignoreZero": false,
       "fakePercent": false,
@@ -2735,10 +2727,10 @@
         300000
       ],
       "values": [
+        0.5,
+        0.75,
         1,
-        2,
-        2.5,
-        3
+        1.25
       ],
       "ignoreZero": false,
       "fakePercent": false,
@@ -2766,13 +2758,13 @@
       ],
       "values": [
         1,
+        2,
         3,
+        4,
         5,
+        6,
         7,
-        9,
-        11,
-        13,
-        15
+        8
       ],
       "ignoreZero": false,
       "fakePercent": false,
