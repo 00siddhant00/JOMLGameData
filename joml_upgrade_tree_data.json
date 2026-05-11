@@ -425,17 +425,26 @@
       "out": []
     },
     {
-      "id": "temporal_recoil",
-      "name": "Temporal Recoil",
-      "desc": "Mastery over tension.\n\nSnapping a chain of 5+ links triggers a temporal recoil, refunding 3.0 seconds.",
-      "demo": true,
+      "id": "surge_crystal",
+      "name": "Surge Crystal",
+      "desc": "Spawns rare surge crystals.\n\nWhen chained spawns a surge of new zek crystals. ",
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [
-        "chaotic_god|UL|2"
+      "max": 1,
+      "costs": [
+        100
       ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": []
     },
     {
       "id": "gluttony_spike",
@@ -640,7 +649,7 @@
       "uiY": 4.07,
       "uiSize": 60,
       "out": [
-        "spark_range|D|2",
+        "spark_range|R|2",
         "powder_cap|DR|2"
       ]
     },
@@ -675,7 +684,7 @@
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "slow_burn|D|2"
+        "slow_burn|U|2"
       ]
     },
     {
@@ -837,7 +846,10 @@
       "uiX": -21.3,
       "uiY": 15.2,
       "uiSize": 80.49,
-      "out": []
+      "out": [
+        "greedy_weaver|DR|2",
+        "prism_weaver|UR|2"
+      ]
     },
     {
       "id": "weaver_velocity",
@@ -968,9 +980,9 @@
         "portal_duplication|DR|2",
         "temporal_anomaly|UR|2",
         "unlock_gold|U|3",
-        "temporal_recoil|UL|2",
         "greed_amplifier|L|4",
-        "high_stakes|R|4"
+        "high_stakes|R|4",
+        "chaotic_god|UL|2"
       ]
     },
     {
@@ -999,12 +1011,29 @@
       "id": "chaotic_god",
       "name": "Chaotic God",
       "desc": "Profiting from anxiety.\n\nMultiplies chain value based on how close the line is to breaking (Red Tension Zone).\n\nIncrease Tension Bonus to /vx",
-      "demo": true,
+      "demo": false,
+      "isUnlock": false,
       "currency": 3,
-      "out": [],
+      "max": 3,
+      "costs": [
+        100,
+        250,
+        400
+      ],
+      "values": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "ignoreZero": true,
+      "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
-      "uiSize": 0
+      "uiSize": 0,
+      "out": [
+        "surge_crystal|UL|2"
+      ]
     },
     {
       "id": "unlock_laser",
@@ -1293,12 +1322,12 @@
         400
       ],
       "values": [
-        0,
         1,
         2,
-        3
+        3,
+        4
       ],
-      "ignoreZero": true,
+      "ignoreZero": false,
       "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
@@ -2024,7 +2053,7 @@
       "uiY": 4.9,
       "uiSize": 65.86,
       "out": [
-        "godly_bar|UR|2",
+        "godly_bar|R|4",
         "godly_multiplier|DR|2"
       ]
     },
@@ -2436,6 +2465,56 @@
       "uiX": 5.7,
       "uiY": 6.7,
       "uiSize": 64.07,
+      "out": []
+    },
+    {
+      "id": "prism_weaver",
+      "name": "Prism Weaver",
+      "desc": "When a weaver flys over any zek crystal its color tire goes up by one color quality.",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 1,
+      "costs": [
+        500
+      ],
+      "values": [
+        0,
+        1
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
+      "out": []
+    },
+    {
+      "id": "greedy_weaver",
+      "name": "Greedy Weaver",
+      "desc": "Flat multiplier for every chain a weaver claims.\n\nIncrease the multiplier by /vx",
+      "demo": false,
+      "isUnlock": false,
+      "currency": 5,
+      "max": 4,
+      "costs": [
+        75,
+        150,
+        225,
+        300
+      ],
+      "values": [
+        100,
+        300,
+        500,
+        700,
+        1000
+      ],
+      "ignoreZero": false,
+      "fakePercent": false,
+      "uiX": 0,
+      "uiY": 0,
+      "uiSize": 0,
       "out": []
     }
   ]
