@@ -324,14 +324,14 @@
         6561000
       ],
       "values": [
+        0,
         20,
         40,
         60,
         80,
-        100,
-        120
+        100
       ],
-      "ignoreZero": false,
+      "ignoreZero": true,
       "fakePercent": false,
       "uiX": 0,
       "uiY": 0,
@@ -2636,7 +2636,7 @@
     {
       "id": "crystal_quality_to_rainbow",
       "name": "Crystal Quality To Rainbow",
-      "desc": "Chance to spawn /c Crystals c/ of Rainbow Quality.\nSilver crystals are worth 100x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Chance to spawn /c Crystals c/ of Rainbow Quality.\nRainbow crystals are worth 100x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
