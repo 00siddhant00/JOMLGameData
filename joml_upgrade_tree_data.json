@@ -2547,7 +2547,7 @@
       "desc": "Refracts the value of matter through the color spectrum.\n\nHigher-quality crystals grant 10x rewards than base multiplier.",
       "demo": false,
       "isUnlock": true,
-      "unlockAt": 10,
+      "unlockAt": 100,
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
@@ -2672,7 +2672,7 @@
       "currency": 7,
       "max": 1,
       "costs": [
-        100
+        2500
       ],
       "values": [
         0,
@@ -2698,8 +2698,8 @@
       "currency": 1,
       "max": 2,
       "costs": [
-        100000,
-        1000000
+        10000000,
+        100000000
       ],
       "values": [
         1,
@@ -2722,9 +2722,9 @@
       "currency": 1,
       "max": 3,
       "costs": [
-        75000,
-        187500,
-        300000
+        7500000,
+        18750000,
+        30000000
       ],
       "values": [
         0.5,
@@ -2748,13 +2748,13 @@
       "currency": 1,
       "max": 7,
       "costs": [
-        100000,
-        300000,
-        500000,
-        700000,
-        900000,
-        1100000,
-        1300000
+        1000000,
+        3000000,
+        5000000,
+        7000000,
+        9000000,
+        11000000,
+        13000000
       ],
       "values": [
         1,
