@@ -365,7 +365,7 @@
       "uiY": 0,
       "uiSize": 90,
       "out": [
-        "chronophagy|DL|2"
+        "chronophagy|DL|3"
       ]
     },
     {
@@ -811,8 +811,7 @@
       "out": [
         "weaver_swarm|DR|2",
         "weaver_appetite|R|3",
-        "weaver_velocity|UR|2",
-        "weaver_reboot|D|3"
+        "weaver_reboot|UR|2"
       ]
     },
     {
@@ -934,7 +933,9 @@
       "uiX": 0,
       "uiY": -6.5,
       "uiSize": 47.78,
-      "out": []
+      "out": [
+        "weaver_velocity|R|2"
+      ]
     },
     {
       "id": "greed_amplifier_ii",
@@ -942,7 +943,7 @@
       "desc": "Refracts the value of matter through the color spectrum.\n\nHigher-quality crystals grant 100x rewards than base multiplier.",
       "demo": false,
       "isUnlock": true,
-      "unlockAt": 100,
+      "unlockAt": 1000,
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
@@ -978,7 +979,7 @@
       "desc": "Ego Unlock",
       "demo": false,
       "isUnlock": true,
-      "unlockAt": 5,
+      "unlockAt": 25,
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
@@ -1177,14 +1178,14 @@
       "currency": 1,
       "max": 8,
       "costs": [
-        150000,
-        300000,
-        450000,
-        600000,
-        750000,
-        900000,
-        1500000,
-        3000000
+        1000000,
+        2000000,
+        4000000,
+        8000000,
+        16000000,
+        32000000,
+        64000000,
+        128000000
       ],
       "values": [
         0,
@@ -1215,29 +1216,29 @@
       "currency": 1,
       "max": 10,
       "costs": [
-        30000,
-        60000,
-        120000,
-        240000,
-        480000,
-        960000,
-        1920000,
-        3840000,
-        7680000,
-        15360000
+        600000,
+        1200000,
+        2400000,
+        4800000,
+        9600000,
+        19200000,
+        38400000,
+        76800000,
+        153600000,
+        307200000
       ],
       "values": [
         1,
         1.4,
-        1.7999999999999998,
-        2.1999999999999997,
-        2.5999999999999996,
-        2.9999999999999996,
-        3.3999999999999995,
-        3.7999999999999994,
-        4.199999999999999,
+        1.8,
+        2.2,
+        2.6,
+        3,
+        3.4000000000000004,
+        3.8000000000000003,
+        4.2,
         4.6,
-        4.999999999999999
+        5
       ],
       "ignoreZero": false,
       "fakePercent": false,
@@ -1258,13 +1259,13 @@
       "currency": 1,
       "max": 7,
       "costs": [
-        150000,
-        225000,
-        300000,
-        375000,
-        450000,
-        525000,
-        600000
+        1500000,
+        3000000,
+        6000000,
+        12000000,
+        24000000,
+        48000000,
+        96000000
       ],
       "values": [
         0,
@@ -1294,11 +1295,11 @@
       "currency": 1,
       "max": 5,
       "costs": [
-        100000,
-        150000,
-        200000,
-        250000,
-        300000
+        1000000,
+        5000000,
+        25000000,
+        125000000,
+        625000000
       ],
       "values": [
         0,
@@ -2264,7 +2265,7 @@
     {
       "id": "wrath_expension",
       "name": "Wrath Expension",
-      "desc": "Expands the collision radius of the flaming cursor. Instead of needing pixel-perfect contact, the cursor projects a burning aura that detonates crystals simply by passing near them.\n\nIncrease multiplier when Ignited by /vx",
+      "desc": "Expands the collision radius of the flaming cursor. Instead of needing pixel-perfect contact, the cursor projects a burning aura that detonates crystals simply by passing near them.\n\nIncrease radius when Ignited by /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2625,12 +2626,12 @@
       "desc": "Refracts the value of matter through the color spectrum.\n\nHigher-quality crystals grant 1000x rewards than base multiplier.",
       "demo": false,
       "isUnlock": true,
-      "unlockAt": 1000,
+      "unlockAt": 2000,
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
       "out": [
-        "crystal_quality_to_rainbow|DR|3"
+        "crystal_quality_to_rainbow|D|4"
       ]
     },
     {
