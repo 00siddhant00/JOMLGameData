@@ -3,7 +3,7 @@
     {
       "id": "root",
       "name": "ROOT",
-      "desc": "Starting node",
+      "desc": "Start your shift. Welcome to Blagine Corp.\n\nStarting node",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -30,7 +30,7 @@
     {
       "id": "chain_length",
       "name": "Chain Length",
-      "desc": "Extends the reach of your /c Chain c/. The line can stretch further from the last crystal to your cursor before snapping.\n\nIncrease max chain reach by /vm",
+      "desc": "Rent a stronger cable. The tether can stretch further from the last crystal to your cursor before snapping.\n\nIncrease max chain reach by /vm",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -74,7 +74,7 @@
     {
       "id": "number_of_crystals",
       "name": "Number Of Crystals",
-      "desc": "More matter floods the Void.\n\nIncrease the number of /c Crystals c/ spawned per cycle by /v",
+      "desc": "Authorize denser mining zones. More /c Crystals c/ spawn per cycle, raising your quota potential.\n\nIncrease /c Crystals c/ spawned per cycle by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -106,7 +106,7 @@
     {
       "id": "connect_radius",
       "name": "Connect Radius",
-      "desc": "Widens the area around your cursor that can link to /c Crystals c/.\n\nIncrease /c Connection Area c/ by /v",
+      "desc": "Upgrade magnetic sensors. Widens the area around your cursor that links to /c Crystals c/.\n\nIncrease /c Connection Area c/ by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -146,7 +146,7 @@
     {
       "id": "miracle_matter",
       "name": "Miracle Matter",
-      "desc": "Each /c Crystal c/ in a **chain of 3+** has a chance to spawn a /c New Crystal c/ when claimed.\n\nIncrease spawn chance by /v% per crystal",
+      "desc": "Buy a company catalyst. Each /c Crystal c/ in a **chain of 3+** has a chance to spawn a new one when claimed.\n\nIncrease spawn chance by /v% per crystal",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -189,7 +189,7 @@
     {
       "id": "unlock_du",
       "name": "Unlock Desire Unit",
-      "desc": "Unlock New Currency: DU\n\nTo get Desire Units you need to chase it with obsession.\nClaim Condition: Click on /c **DU Star**  c/ before they decay",
+      "desc": "Access the Desire Unit market.\nClaim Condition: Click on /c **DU Star** c/ before they decay.\n\nUnlock New Currency: DU",
       "demo": false,
       "isUnlock": false,
       "currency": 7,
@@ -215,7 +215,7 @@
     {
       "id": "crystal_quality_to_green",
       "name": "Crystal Quality To Green",
-      "desc": "Chance to spawn /c Crystals c/ of Green Quality.\nGreen crystals are worth 2x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Pay for access to deeper veins. Chance to spawn Green crystals, which are worth 2x of Yellow Crystals.\n\nIncrease Green spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -247,7 +247,7 @@
     {
       "id": "crystal_quality_to_blue",
       "name": "Crystal Quality To Blue",
-      "desc": "Chance to spawn /c Crystals c/ of Blue Quality.\nBlue crystals are worth 3x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Access Blue tier veins. Blue crystals are worth 3x of Yellow Crystals.\n\nIncrease Blue spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -279,7 +279,7 @@
     {
       "id": "crystal_quality_to_purple",
       "name": "Crystal Quality To Purple",
-      "desc": "Chance to spawn /c Crystals c/ of Purple Quality.\nPurple crystals are worth 4x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Access Purple tier veins. Purple crystals are worth 4x of Yellow Crystals.\n\nIncrease Purple spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -311,7 +311,7 @@
     {
       "id": "crystal_quality_to_red",
       "name": "Crystal Quality To Red",
-      "desc": "Chance to spawn /c Crystals c/ of Red Quality.\nRed crystals are worth 5x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Access Red tier veins. Red crystals are worth 5x of Yellow Crystals.\n\nIncrease Red spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -343,7 +343,7 @@
     {
       "id": "time_bank",
       "name": "Time Bank",
-      "desc": "Bends the clock in your favor.\n\nAdds flat bonus seconds to every cycle, regardless of investment.\n\nIncrease bonus time by /vs",
+      "desc": "Pay to keep the portal open longer. Adds flat bonus seconds to every cycle, regardless of investment.\n\nAdd /vs to the portal timer",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -371,7 +371,7 @@
     {
       "id": "chronophagy",
       "name": "Chronophagy",
-      "desc": "Grants a chance to rip /c Time c/ straight out of the Void when claiming a chain of 3+ crystals, adding seconds back to the clock.\n\nIncrease chance by /v%",
+      "desc": "Install a time-siphon. Claiming a **chain of 3+** crystals grants a chance to steal seconds back from the Void.\n\nIncrease trigger chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -408,7 +408,7 @@
     {
       "id": "voracity",
       "name": "Voracity",
-      "desc": "Increases the efficiency of /c Chronophagy c/. Sets time restored per trigger to /v seconds.",
+      "desc": "Upgrade your time-siphon. Sets time restored per trigger to /v seconds.\n\nSet time restored per trigger to /v seconds",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -448,7 +448,7 @@
     {
       "id": "surge_crystal",
       "name": "Surge Crystal",
-      "desc": "Spawns rare surge crystals.\n\nWhen chained spawns a surge of new zek crystals. ",
+      "desc": "Unlock Surge variants. When chained, spawns a surge of new /c ZEK c/ crystals.\n\nSpawns rare surge crystals.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -470,7 +470,7 @@
     {
       "id": "gluttony_spike",
       "name": "Gluttony Spike",
-      "desc": "A sudden spike in hunger.\nChance that /c Chronophagy c/ will grant triple the amount of Time.\n\nIncrease crit chance by /v%",
+      "desc": "A risky system overclock. Chance that Chronophagy will grant triple the amount of time.\n\nIncrease critical chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -500,7 +500,7 @@
     {
       "id": "matter_multiplicity",
       "name": "Matter Multiplicity",
-      "desc": "Amplifies the /c Miracle Matter c/ reaction. When triggered, the Void will spawn multiple new crystals in place of the single one you claimed.\n\nIncrease miracle multiplier to /vx",
+      "desc": "Upgrade your catalyst. When triggered, it spawns multiple new crystals in place of the single one you claimed.\n\nIncrease miracle multiplier to /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -528,7 +528,7 @@
     {
       "id": "alchemical_touch",
       "name": "Alchemical Touch",
-      "desc": "Perfects the /c Miracle Matter c/ process.\n\nTriggered miracles will /c always c/ transmute into your /c Highest Unlocked Crystal Quality c/.",
+      "desc": "Buy the premium catalyst package. Triggered miracles will always transmute into your Highest Unlocked Crystal Quality.\n\nMiracles always spawn top-tier crystals.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -550,7 +550,7 @@
     {
       "id": "desperate_prayer",
       "name": "Desperate Prayer",
-      "desc": "Doubles the chance of Miracle Matter triggering when the timer will be below /v seconds.",
+      "desc": "Safety override. Doubles the chance of Miracle Matter triggering when the timer is below /v seconds.\n\nDoubles spawn chance near death.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -578,7 +578,7 @@
     {
       "id": "portal_duplication",
       "name": "Portal Duplication",
-      "desc": "Tears the fabric of the Void, forcing the gateway to expand beyond control.\n\nDoubles all /c ZEK earnings c/ as they pass through the rift.",
+      "desc": "Force the portal open wider. Doubles all /c ZEK c/ earnings as they pass through the rift.\n\nDoubles all ZEK earnings.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -600,7 +600,7 @@
     {
       "id": "powder_cap",
       "name": "Powder Cap",
-      "desc": "Increases the limit of your explosive potential.\n\nIncrease Max Volatility Multiplier to /vx",
+      "desc": "Expand your volatile storage limit. Blagine Corp assumes no liability for premature detonation.\n\nIncrease Max Volatility Multiplier to /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 2,
@@ -646,7 +646,7 @@
     {
       "id": "short_fuse",
       "name": "Short Fuse",
-      "desc": "Playing with fire.\nRapidly clearing Short Chains (under /c Spark Range c/) lights the fuse, generating /c Volatility c/.\n\nIncrease Volatility Generation to /vx per claim",
+      "desc": "Harvest volatile energy. Rapidly clearing Short Chains (under /c Spark Range c/) generates /c Volatility c/.\n\nIncrease Volatility Generation to /vx per claim",
       "demo": false,
       "isUnlock": false,
       "currency": 2,
@@ -679,7 +679,7 @@
     {
       "id": "spark_range",
       "name": "Spark Range",
-      "desc": "Improves ignition sensitivity.\nChains of higher lengths will now count as /c Short Chains c/ for generating Volatility.\n/c 2 crystals linked is minimum for a short chain c/\n\nIncrease Max Short-Chain Length to /v links",
+      "desc": "Adjust sensor sensitivity. Chains of higher lengths count as /c Short Chains c/. /c 2 crystals linked is minimum for a short chain c/.\n\nIncrease Max Short-Chain Length to /v links",
       "demo": false,
       "isUnlock": false,
       "currency": 2,
@@ -713,7 +713,7 @@
     {
       "id": "unlock_gold",
       "name": "Unlock Gold",
-      "desc": "Introduces a greedy anomaly.\n\nAllows /c **Gold Crystals** c/ to spawn, which double the final /c ZEK c/ value of the entire chain.",
+      "desc": "Pay for the Gold anomaly tracker. /c **Gold Crystals** c/ double the final /c ZEK c/ value of the entire chain.\n\nAllows Gold Crystals to spawn.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -737,7 +737,7 @@
     {
       "id": "gold_frequency",
       "name": "Gold Frequency",
-      "desc": "Increases the probability of the Gold anomaly occurring.\n\nIncrease Gold Spawn Rate by /v%",
+      "desc": "Tune the tracker. Increases the probability of the Gold anomaly occurring.\n\nIncrease Gold Spawn Rate by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -767,7 +767,7 @@
     {
       "id": "temporal_anomaly",
       "name": "Temporal Anomaly",
-      "desc": "Introduces a glitch in time.\n\nAllows **White Chronos Crystals** to spawn, which instantly add time to the clock on claim.",
+      "desc": "Unlock the Chronos anomaly tracker. **White Chronos Crystals** instantly add time to the clock on claim.\n\nAllows Chronos Crystals to spawn.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -791,7 +791,7 @@
     {
       "id": "weaver_bots",
       "name": "Weaver Bots",
-      "desc": "Conjures a semi-sentient construct. A /c Weaver c/ orbits your cursor, automatically building and claiming its own crystal chains.",
+      "desc": "A company-owned drone. It orbits your cursor, automatically building and claiming its own crystal chains. You pay for damages.\n\nDeploy /c 1 Automated Weaver c/",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -817,7 +817,7 @@
     {
       "id": "weaver_swarm",
       "name": "Weaver Swarm",
-      "desc": "Splits the consciousness of the construct.\n\nIncrease Active Weavers to /v",
+      "desc": "Rent more drones. Multiple Weavers clear the zone faster, but rental fees add up.\n\nIncrease Active Weavers to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -845,7 +845,7 @@
     {
       "id": "weaver_appetite",
       "name": "Weaver Appetite",
-      "desc": "Expands the Weaver's hunger, allowing it to hold more mass before needing to rest.\n\nIncrease Max Links per Burst to /v",
+      "desc": "Expand drone storage. They hold more mass before needing to rest.\n\nIncrease Max Links per Burst to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -876,7 +876,7 @@
     {
       "id": "weaver_velocity",
       "name": "Weaver Velocity",
-      "desc": "Accelerates the Weaver's movement speed and link calculation time.\n\nIncrease Weaver Speed by /v%",
+      "desc": "Overclock drone engines. Accelerates Weaver movement speed and link calculation time.\n\nIncrease Weaver Speed by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -904,7 +904,7 @@
     {
       "id": "weaver_reboot",
       "name": "Weaver Reboot",
-      "desc": "Optimizes the reset cycle of the **Weaver Bots**.\n\nSet Weaver Resting Time to /vs",
+      "desc": "Improve drone cooling systems. Optimizes the reset cycle so they rest for less time.\n\nSet Weaver Resting Time to /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -940,7 +940,7 @@
     {
       "id": "greed_amplifier_ii",
       "name": "Greed Amplifier II",
-      "desc": "Refracts the value of matter through the color spectrum.\n\nHigher-quality crystals grant 100x rewards than base multiplier.",
+      "desc": "Buy the corporate appraisal scanner. Higher-quality crystals grant 100x rewards than base multiplier.\n\n100x rewards for higher-tier crystals.",
       "demo": false,
       "isUnlock": true,
       "unlockAt": 1000,
@@ -952,7 +952,7 @@
     {
       "id": "high_stakes",
       "name": "High Stakes",
-      "desc": "Arrogance pays well… until it doesn’t. \n\nDoubles all EGO gained from successful bets, but failures strike twice as hard.",
+      "desc": "Bet your EGO. Doubles all EGO gained from successful bets, but failures strike twice as hard.\n\nDoubles EGO gains and losses.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -976,7 +976,7 @@
     {
       "id": "ego_unlock",
       "name": "Ego Unlock",
-      "desc": "Ego Unlock",
+      "desc": "Access the EGO market. Your sense of self is just another currency here.\n\nEgo Unlock",
       "demo": false,
       "isUnlock": true,
       "unlockAt": 25,
@@ -996,7 +996,7 @@
     {
       "id": "insurance_policy",
       "name": "Insurance Policy",
-      "desc": "Even self-destruction bends the knee to your ego. \n\nIf a ‘Suicide (2x)’ run fails, only half the EGO is lost.",
+      "desc": "Buy company insurance. If a ‘Suicide (2x)’ run fails, only half the EGO is lost.\n\nLose half EGO on failed Suicide runs.",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -1018,7 +1018,7 @@
     {
       "id": "chaotic_god",
       "name": "Chaotic God",
-      "desc": "Profiting from anxiety.\n\nMultiplies chain value based on how close the line is to breaking (Red Tension Zone).\n\nIncrease Tension Bonus to /vx",
+      "desc": "Push the tether to its breaking point. Multiplies chain value based on how close the line is to breaking (Red Tension Zone).\n\nIncrease Tension Bonus to /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -1046,7 +1046,7 @@
     {
       "id": "unlock_laser",
       "name": "Unlock Laser",
-      "desc": "Weaponizes the portal. Unlocks the **Mining Laser**, a screen-clearing beam that vaporizes crystals for instant value.\n\nActivates when claiming chains of **3+ crystals**.",
+      "desc": "Rent heavy orbital weaponry. Activates a screen-clearing beam when claiming chains of **3+ crystals**.\n\nActivates Mining Laser on 3+ chains.",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -1072,7 +1072,7 @@
     {
       "id": "laser_chance",
       "name": "Laser Chance",
-      "desc": "Automates the targeting system. Adds a chance to trigger the Laser on claim *of more than 3 crystals*.\n\nIncrease Trigger Chance by /v%",
+      "desc": "Automate weapon targeting. Adds a chance to trigger the Laser automatically on claim of **more than 3 crystals**.\n\nIncrease Trigger Chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -1102,7 +1102,7 @@
     {
       "id": "laser_width",
       "name": "Laser Width",
-      "desc": "Widens the aperture of the weapon.\n\nIncrease Beam Width to /vx",
+      "desc": "Widen the aperture of the weapon. Burns more crystals at once.\n\nIncrease Beam Width to /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -1130,7 +1130,7 @@
     {
       "id": "greedy_laser",
       "name": "Greedy Laser",
-      "desc": "Zek claimed by /c Laser c/ has its value multiplied.\n\nIncrease the gain by /vx",
+      "desc": "Tune the laser for profit. Zek claimed by /c Laser c/ has its value multiplied.\n\nIncrease the gain by /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -1172,7 +1172,7 @@
     {
       "id": "wish_for_a_falling_star",
       "name": "Wish For A Falling Star",
-      "desc": "The wait is shorter.\n/c DU Stars c/ appear more frequently during cycles. \n\nIncrease spawn frequency by /v%",
+      "desc": "Request more frequent DU drops. /c DU Stars c/ appear more frequently during cycles.\n\nIncrease DU spawn frequency by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1210,7 +1210,7 @@
     {
       "id": "eye_of_a_poet",
       "name": "Eye Of A Poet",
-      "desc": "Allows you the privilege of gazing upon the /c DU Star c/ for a little while longer.\n\nSet /c DU Star c/ lifetime to /vs",
+      "desc": "Pay to slow down DU decay. Allows you to gaze upon the /c DU Star c/ for a little while longer.\n\nSet DU Star lifetime to /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1230,15 +1230,15 @@
       "values": [
         1,
         1.4,
-        1.8,
-        2.2,
-        2.6,
-        3,
-        3.4000000000000004,
-        3.8000000000000003,
-        4.2,
+        1.7999999999999998,
+        2.1999999999999997,
+        2.5999999999999996,
+        2.9999999999999996,
+        3.3999999999999995,
+        3.7999999999999994,
+        4.199999999999999,
         4.6,
-        5
+        4.999999999999999
       ],
       "ignoreZero": false,
       "fakePercent": false,
@@ -1253,7 +1253,7 @@
     {
       "id": "twin_yield",
       "name": "Twin Yield",
-      "desc": "/c **The Desire** c/ for more /c Desire c/.\n\nIncrease the chance to yield double DU by /v%",
+      "desc": "Upgrade the DU extractor. Increase the chance to yield double DU.\n\n/v% chance to yield double DU.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1289,7 +1289,7 @@
     {
       "id": "critical_obsession",
       "name": "Critical Obsession",
-      "desc": "If you click the /c DU Star c/ within the first /v seconds of it spawning, gain **Triple Rewards**.",
+      "desc": "Reward for fast reflexes. If you click the /c DU Star c/ within the first /v seconds of it spawning, gain **Triple Rewards**.\n\nGain Triple Rewards on fast clicks.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1319,7 +1319,7 @@
     {
       "id": "time_leaps",
       "name": "Time Leaps",
-      "desc": "Increase the amount of time added by Chronos Crystals by /vs",
+      "desc": "Improve Chronos extraction. Increase the amount of time added by Chronos Crystals.\n\nIncrease time added by /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 3,
@@ -1345,7 +1345,7 @@
     {
       "id": "mooch_the_envious",
       "name": "Mooch The Envious",
-      "desc": "Summons /c Mooch c/, an alien parasite of pure /c Envy c/. \n\nHe autonomously devours your /c Zek c/ to build a massive internal multiplier. Slash his limbs to trim his mass, or strip him down completely to layer zero to slay him and extract his hoarded /c NV c/.",
+      "desc": "Lure an alien parasite. It autonomously devours your /c Zek c/ to build a massive internal multiplier. Slash it to extract /c NV c/.\n\nSpawns Mooch.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1371,7 +1371,7 @@
     {
       "id": "moo_the_baby",
       "name": "Moo The Baby",
-      "desc": "Upon slaying a Mooch, a /c Moo c/ is born from the corpse. \n\nThis *dumb, slow creature* wanders the board, devouring loose crystals to grow a segmented tail. \n\nOnce it reaches **capacity**, it detonates into a multiplied /c ZEK c/ payout. It's not smart. It's just *happy to be here*.",
+      "desc": "A mindless grub born from a dead Mooch. It wanders and devours loose crystals until it reaches **capacity**, detonating into a multiplied payout.\n\nSpawns a Moo on Mooch death.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1395,7 +1395,7 @@
     {
       "id": "hungry_baby",
       "name": "Hungry Baby",
-      "desc": "Babies grow up so fast, don't they?\n\nIncreases the maximum number of crystals a Moo can ingest before bursting to /v. \n\nA longer tail means a **higher base value** when it finally pops. *The numbers go up.*",
+      "desc": "Expand the grub's stomach. Increases max crystals a Moo can ingest. A longer tail means a **higher base value** when it pops.\n\nIncrease max crystals eaten to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1424,7 +1424,7 @@
     {
       "id": "hasty_baby",
       "name": "Hasty Baby",
-      "desc": "A slow snake is a dead weight.\n\nIncreases the Moo's base movement speed to /v.",
+      "desc": "Stimulate the grub. Increases the Moo's base movement speed so it cleans the zone quicker.\n\nIncrease base movement speed to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1456,7 +1456,7 @@
     {
       "id": "twin_moos",
       "name": "Twin Moos",
-      "desc": "Upgrades the Mooch's death sequence. \n\nInstead of birthing one Moo, it splits into /v%. ",
+      "desc": "Mess with parasite genetics. Instead of birthing one Moo, Mooch splits into multiple.\n\n/v% chance to split.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1486,7 +1486,7 @@
     {
       "id": "jealousys_tax",
       "name": "Jealousys Tax",
-      "desc": "Every time you click to trim a limb off Mooch, there is a /v% chance to steal his current internal multiplier and apply it directly to your next chain.",
+      "desc": "Install a theft module. Every click to trim a limb off Mooch has a chance to steal his multiplier and apply it to your next chain.\n\n/v% chance to steal multiplier.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1508,7 +1508,7 @@
     {
       "id": "lucky_theft",
       "name": "Lucky Theft",
-      "desc": "A safety net for the greedy. If you stretch too far and the chain snaps, there is a /v% chance it instantly cashes out a percentage of the broken chain instead of destroying it completely.",
+      "desc": "A basic safety net. If your chain snaps, there is a chance it instantly cashes out a percentage of the broken chain instead of destroying it completely.\n\n/v% chance to recover broken chains.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1570,7 +1570,7 @@
     {
       "id": "theft_mastery",
       "name": "Theft Mastery",
-      "desc": "Dictates the exact payout of Lucky Theft. \n\nSecures /v% of the broken chain's total crystal value when Lucky Theft is triggered.",
+      "desc": "Upgrade the safety net. Secures /v% of the broken chain's total crystal value when Lucky Theft is triggered.\n\nSecures /v% of broken chain value.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1598,7 +1598,7 @@
     {
       "id": "envys_edge",
       "name": "Envy's Edge",
-      "desc": "Sharpens your slash to deal heavier base damage to /c Mooch c/. Each slash amputates multiple limbs simultaneously to trim his mass faster.\n\nIncrease limbs removed per click by /v",
+      "desc": "Sharpen your cutting tool. Deal heavier base damage to /c Mooch c/. Each slash amputates multiple limbs simultaneously.\n\nIncrease limbs removed per click by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1632,7 +1632,7 @@
     {
       "id": "surgical_sever",
       "name": "Surgical Sever",
-      "desc": "Each slash against /c Mooch c/ has a chance to deal double damage, stripping twice the mass in a single strike.\n\nIncrease double damage chance by /v%",
+      "desc": "Hit weak points. Each slash against /c Mooch c/ has a chance to deal double damage, stripping twice the mass.\n\n/v% chance for double damage.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1697,7 +1697,7 @@
     {
       "id": "guillotine",
       "name": "Guillotine",
-      "desc": "Each slash against /c Mooch c/ has a low chance to trigger a critical strike, instantly shattering and destroying his entire active layer.\n\nIncrease critical strike chance by /v%",
+      "desc": "Buy a heavy blade. A low chance to trigger a critical strike, instantly shattering and destroying his entire active layer.\n\n/v% critical strike chance.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1737,7 +1737,7 @@
     {
       "id": "infestation",
       "name": "Infestation",
-      "desc": "Allows additional instances of /c Mooch c/ to spawn per phase, multiplying both the chaos on the board and your potential /c NV c/ yields.",
+      "desc": "Let the parasites breed. Allows additional instances of /c Mooch c/ to spawn per phase, multiplying /c NV c/ yields.\n\nIncrease active Mooches to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1765,7 +1765,7 @@
     {
       "id": "neural_shock",
       "name": "Neural Shock",
-      "desc": "Each slash against /c Mooch c/ has a chance to stun him, temporarily halting his movement and preventing him from devouring /c Zek c/.\n\nIncrease stun chance by /v%",
+      "desc": "Add a taser to your blade. Each slash against /c Mooch c/ has a chance to stun him, preventing him from devouring /c Zek c/.\n\n/v% chance to stun.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1807,7 +1807,7 @@
     {
       "id": "paralytic_grip",
       "name": "Paralytic Grip",
-      "desc": "Increases the duration of the stun effect applied by /c Neural Shock c/, leaving the parasite helpless for longer.\n\nIncrease stun duration by /vs",
+      "desc": "Turn up the voltage. Increases the duration of the stun effect, leaving the parasite helpless for longer.\n\nIncrease stun duration by /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1833,7 +1833,7 @@
     {
       "id": "sloppy_eater",
       "name": "Sloppy Eater",
-      "desc": "Forces your parasite to poop.\n\nEvery time /c Mooch c/ successfully devours a /c Zek c/, there is a chance he poops an /c EAT c/ blob. The amount of /c EAT c/ blobs generated scales with the quality of the swallowed crystal.\n\nIncrease poop chance by /v%",
+      "desc": "Feed Mooch a laxative. He might drop /c EAT c/ blobs after devouring a /c Zek c/. The amount of /c EAT c/ scales with the quality of the swallowed crystal.\n\n/v% chance to drop EAT.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -1865,7 +1865,7 @@
     {
       "id": "synthetic_digestion",
       "name": "Synthetic Digestion",
-      "desc": "Reverse-engineers the biological waste of /c Mooch c/. Unlocks the ability to artificially synthesize /c EAT c/ blobs from the residual energy of claiming a /c Zek c/ chain.",
+      "desc": "Buy a bio-reactor. Artificially synthesize /c EAT c/ blobs from the residual energy of claiming a /c Zek c/ chain.\n\nUnlock EAT synthesis.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1890,7 +1890,7 @@
     {
       "id": "kinetic_threshold",
       "name": "Kinetic Threshold",
-      "desc": "Calibrates the synthesis engine to trigger from smaller energy ruptures. Lowers the minimum /c Crystal c/ chain length required to artificially synthesize an /c EAT c/ blob from the wasted kinetic force.\n\nDecrease required chain length by /v",
+      "desc": "Lower the bio-reactor's limits. Lowers the minimum /c Crystal c/ chain length required to artificially synthesize an /c EAT c/ blob.\n\nDecrease required chain length by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1936,7 +1936,7 @@
     {
       "id": "mass_production",
       "name": "Mass Production",
-      "desc": "Overclocks the extraction machinery. Increases the base number of synthetic /c EAT c/ blobs generated whenever a valid /c Zek c/ chain is successfully claimed and its energy harvested.\n\nIncrease base blobs generated by /v",
+      "desc": "Overclock the bio-reactor. Increases the base number of synthetic /c EAT c/ blobs generated whenever a valid chain is claimed.\n\nIncrease base blobs generated by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -1972,7 +1972,7 @@
     {
       "id": "caloric_compression",
       "name": "Caloric Compression",
-      "desc": "Condenses the artificial waste to hold more raw gluttony. Increases the base amount of /c EAT c/ gained per synthesized blob popped, maximizing your yield without cluttering the void.\n\nIncrease density by /vx",
+      "desc": "Pack the blobs tighter. Increases the base amount of /c EAT c/ gained per synthesized blob popped.\n\nIncrease density by /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2002,7 +2002,7 @@
     {
       "id": "synthetic_rot",
       "name": "Synthetic Rot",
-      "desc": "Introduces an intentional biological flaw into the synthesis process. Each generated blob has a chance to rapidly mutate into a massive Fungus Blob, yielding 10x the normal /c EAT c/ amount when popped.\n\nIncrease mutation perfection chance by /v%",
+      "desc": "Let the bio-reactor spoil. Each blob has a chance to rapidly mutate into a Fungus Blob, yielding 10x the normal /c EAT c/ amount.\n\n/v% chance to mutate into fungus.",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2032,7 +2032,7 @@
     {
       "id": "greedy_god",
       "name": "Greedy God",
-      "desc": "The portal demands a sacrifice. \n\nUpon collecting enough individual crystals, the portal violently tethers and consumes every active Zek on the screen by calling out upon its mechanical tentacle chains.\n\nFill the Godly Bar to trigger Greedy God.",
+      "desc": "Feed the portal enough /c ZEK c/. Fill the Godly Bar to violently tether and consume every active Zek on the screen.\n\nFill the Godly Bar to trigger Greedy God.",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -2057,7 +2057,7 @@
     {
       "id": "godly_bar",
       "name": "Godly Bar",
-      "desc": "Decrease the amount of ZEK need to be claimed to fill the full bar and trigger Greedy God.\n\nThe zek claimed doesn't need to be in a single chain but can be over multiple claimed zek chains.\n\nDecrease the amount by /v",
+      "desc": "Lower the portal's hunger. Decrease the amount of ZEK needed to fill the bar. The claimed zek doesn't need to be in a single chain; it can be over multiple chains.\n\nDecrease required amount by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -2087,7 +2087,7 @@
     {
       "id": "a_brain_cell",
       "name": "A Brain Cell",
-      "desc": "The Moo gains *spatial awareness*. \n\nIt actively reads the player's cursor trajectory , calculating pathfinding to **avoid stealing crystals** from your active operator chains. \n\n*Training your pet not to bite the hand that feeds it.*",
+      "desc": "Train your grub. It actively reads cursor trajectory to avoid stealing crystals from your active operator chains.\n\nMoo avoids active chains.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -2111,7 +2111,7 @@
     {
       "id": "cannibalism",
       "name": "Cannibalism",
-      "desc": "**Swarm coordination unlocked.** \n\nIf multiple Moos are alive, a smaller Moo will actively hunt down the tail of a larger Moo to *consume it*, fusing their segments into one **massive, exponentially multiplied super-chain** before detonating. ",
+      "desc": "Let them eat each other. A smaller Moo will hunt down and consume a larger Moo's tail, fusing into an exponentially multiplied super-chain.\n\nMoos can consume each other.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -2135,7 +2135,7 @@
     {
       "id": "singularity",
       "name": "Singularity",
-      "desc": "The ultimate *hive-mind evolution*. \n\nMoos will no longer detonate at max capacity. Instead, they enter a **charged state** and seek out your active Operator chain.\n\nWhen you claim your chain, all charged Moos snap to the end, pooling their entire devoured mass into your final /c Sum(Weights)² c/ calculation.",
+      "desc": "Hive-mind upgrade. Moos enter a charged state and pool their entire devoured mass into your active Operator chain when claimed.\n\nMoos pool into your active chain.",
       "demo": false,
       "isUnlock": false,
       "currency": 6,
@@ -2157,13 +2157,13 @@
     {
       "id": "unlock_ash",
       "name": "Unlock ASH",
-      "desc": "Unlock New Currency: ASH\n\nHold cursor over Ashtroid till it catches fire, and then burn Zek to convert them to ash",
+      "desc": "Pay for a burner. Hold your cursor over an Ashteroid until it catches fire, then burn /c Zek c/ to convert them to ash.\n\nUnlock New Currency: ASH",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
       "max": 1,
       "costs": [
-        500
+        250
       ],
       "values": [
         0,
@@ -2182,7 +2182,7 @@
     {
       "id": "ignition_speed",
       "name": "Ignition Speed",
-      "desc": "Decreases the agonizing hold time on the asteroid so the cursor catches on fire faster.\n\nDecrease the duration to /vs",
+      "desc": "Buy better fuel. Decreases the agonizing hold time on the asteroid so the cursor catches on fire faster.\n\nDecrease charge time to /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2211,7 +2211,7 @@
     {
       "id": "flame_duration",
       "name": "Flame Duration",
-      "desc": "Increases the total time the cursor stays ignited after the charge-up.\n\nIncrease the duration by /vs",
+      "desc": "Upgrade your heat shields. Increases the total time the cursor stays ignited after the charge-up.\n\nIncrease burn duration by /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2237,7 +2237,7 @@
     {
       "id": "ashteroid_count",
       "name": "Ashteroid Count",
-      "desc": "Increases the initial spawn of the Ashteroids appearing in the orbital band.\n\nIncrease the base to /v",
+      "desc": "Call in more rocks. Increases the initial spawn of the Ashteroids appearing in the orbital band.\n\nIncrease base Ashteroids to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2265,7 +2265,7 @@
     {
       "id": "wrath_expension",
       "name": "Wrath Expension",
-      "desc": "Expands the collision radius of the flaming cursor. Instead of needing pixel-perfect contact, the cursor projects a burning aura that detonates crystals simply by passing near them.\n\nIncrease radius when Ignited by /vx",
+      "desc": "Turn up the heat. Expands the collision radius. The cursor projects a burning aura that detonates crystals simply by passing near them.\n\nIncrease multiplier when Ignited by /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2295,7 +2295,7 @@
     {
       "id": "explosion_purity",
       "name": "Explosion Purity",
-      "desc": "Refine the /c ZEK c/ explosion process more pure resulting in better ASH extraction.\n\nIncrease ASH gained per explosion by /v",
+      "desc": "Refine the burn process. Makes the /c ZEK c/ explosion process more pure, resulting in better ASH extraction.\n\nIncrease ASH per explosion by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2325,7 +2325,7 @@
     {
       "id": "slow_burn",
       "name": "Slow Burn",
-      "desc": "Chemicals that keep the fuse lit, delaying the loss of Volatility when inactive.\n\nIncrease Decay Delay to /vs",
+      "desc": "Add stabilizers. Chemicals that keep the fuse lit, delaying the loss of Volatility when inactive.\n\nIncrease Decay Delay to /vs",
       "demo": false,
       "isUnlock": false,
       "currency": 2,
@@ -2355,7 +2355,7 @@
     {
       "id": "detonation",
       "name": "Detonation",
-      "desc": "Consumes all /c Volatility c/ on a Long Chain (10+ links) for a massive payout.\n\nIncrease Burst Bonus to /v% per stack",
+      "desc": "Cash out. Consumes all /c Volatility c/ on a Long Chain (10+ links) for a massive payout.\n\nIncrease Burst Bonus to /v% per stack",
       "demo": false,
       "isUnlock": false,
       "currency": 2,
@@ -2397,7 +2397,7 @@
     {
       "id": "detonation_trigger",
       "name": "Detonation Trigger",
-      "desc": "Destabilizes the explosives. \nReduces the number of links required to trigger /c Detonation c/. \n\nDecrease Min Long-Chain Length to /v links",
+      "desc": "Make the explosives sensitive. Reduces the number of links required to trigger /c Detonation c/.\n\nDecrease Min Long-Chain Length to /v links",
       "demo": false,
       "isUnlock": false,
       "currency": 2,
@@ -2427,7 +2427,7 @@
     {
       "id": "godly_multiplier",
       "name": "Godly Multiplier",
-      "desc": "Zek claimed by /c Greedy God c/ has its value multiplied.\n\nIncrease the gain by /vx",
+      "desc": "The portal pays back. Zek claimed by /c Greedy God c/ has its value multiplied.\n\nIncrease Greedy God gain by /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -2467,7 +2467,7 @@
     {
       "id": "prism_weaver",
       "name": "Prism Weaver",
-      "desc": "When a weaver flys over any zek crystal its color tire goes up by one color quality.",
+      "desc": "Install a paint module. When a weaver flies over any zek crystal its color tier goes up by one quality.\n\nWeavers upgrade crystal quality.",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -2491,7 +2491,7 @@
     {
       "id": "greedy_weaver",
       "name": "Greedy Weaver",
-      "desc": "Flat multiplier for every chain a weaver claims.\n\nIncrease the multiplier by /vx",
+      "desc": "Tax the drones. Applies a flat multiplier for every chain a weaver claims.\n\nIncrease Weaver multiplier by /vx",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -2519,7 +2519,7 @@
     {
       "id": "prism_area",
       "name": "Prism Area",
-      "desc": "Increase the radius Prism Weaver takes effect in by /v",
+      "desc": "Upgrade the paint sprayer. Increase the radius Prism Weaver takes effect in.\n\nIncrease Prism radius by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 5,
@@ -2545,7 +2545,7 @@
     {
       "id": "greed_amplifier_i",
       "name": "Greed Amplifier I",
-      "desc": "Refracts the value of matter through the color spectrum.\n\nHigher-quality crystals grant 10x rewards than base multiplier.",
+      "desc": "Buy a better appraisal scanner. Higher-quality crystals grant 10x rewards than base multiplier.\n\n10x rewards for higher-tier crystals.",
       "demo": false,
       "isUnlock": true,
       "unlockAt": 100,
@@ -2559,7 +2559,7 @@
     {
       "id": "crystal_quality_to_black",
       "name": "Crystal Quality To Black",
-      "desc": "Chance to spawn /c Crystals c/ of Black Quality.\nBlack crystals are worth 6x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Access Black tier veins. Black crystals are worth 6x of Yellow Crystals.\n\nIncrease Black spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2591,7 +2591,7 @@
     {
       "id": "crystal_quality_to_silver",
       "name": "Crystal Quality To Silver",
-      "desc": "Chance to spawn /c Crystals c/ of Silver Quality.\nSilver crystals are worth 7x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Access Silver tier veins. Silver crystals are worth 7x of Yellow Crystals.\n\nIncrease Silver spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2623,10 +2623,10 @@
     {
       "id": "greed_amplifier_iii",
       "name": "Greed Amplifier III",
-      "desc": "Refracts the value of matter through the color spectrum.\n\nHigher-quality crystals grant 1000x rewards than base multiplier.",
+      "desc": "Buy the executive appraisal scanner. Higher-quality crystals grant 1000x rewards than base multiplier.\n\n1000x rewards for higher-tier crystals.",
       "demo": false,
       "isUnlock": true,
-      "unlockAt": 2000,
+      "unlockAt": 2500,
       "uiX": 0,
       "uiY": 0,
       "uiSize": 0,
@@ -2637,7 +2637,7 @@
     {
       "id": "crystal_quality_to_rainbow",
       "name": "Crystal Quality To Rainbow",
-      "desc": "Chance to spawn /c Crystals c/ of Rainbow Quality.\nRainbow crystals are worth 100x of Yellow Crystals.\n\nIncrease spawn chance by /v%",
+      "desc": "Access Rainbow tier veins. Rainbow crystals are worth 100x of Yellow Crystals.\n\nIncrease Rainbow spawn chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2667,7 +2667,7 @@
     {
       "id": "the_thunder",
       "name": "The Thunder",
-      "desc": "A violent discharge.\n\nClaiming a crystal has a rare chance to cast /c Chain Lightning c/ to nearby crystals, adding them to your payout instantly.",
+      "desc": "Buy a static discharger. Claiming a crystal has a rare chance to cast /c Chain Lightning c/ to nearby crystals, adding them to your payout instantly.\n\nUnlocks Chain Lightning.",
       "demo": false,
       "isUnlock": false,
       "currency": 7,
@@ -2693,7 +2693,7 @@
     {
       "id": "conductivity",
       "name": "Conductivity",
-      "desc": "Increases the instability of your chains, raising the probability of discharging /c The Thunder c/ upon claiming.\n\nIncrease trigger chance by /v%",
+      "desc": "Make the chains unstable. Increases the instability of your chains, raising the probability of discharging /c The Thunder c/.\n\nIncrease trigger chance by /v%",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2717,7 +2717,7 @@
     {
       "id": "arc_reach",
       "name": "Arc Reach",
-      "desc": "Expands the search radius of /c The Thunder c/, allowing the spark to leap across wider gaps to find its next target.\n\nIncrease jump radius by /v",
+      "desc": "Turn up the voltage. Expands the search radius, allowing the spark to leap across wider gaps to find its next target.\n\nIncrease jump radius by /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
@@ -2743,7 +2743,7 @@
     {
       "id": "strike_cap",
       "name": "Strike Cap",
-      "desc": "Defines the absolute maximum number of crystals /c The Thunder c/ can leap to in a single discharge before burning out.\n\nIncrease max strikes to /v",
+      "desc": "Remove safety limiters. Defines the absolute maximum number of crystals /c The Thunder c/ can leap to in a single discharge.\n\nIncrease max strikes to /v",
       "demo": false,
       "isUnlock": false,
       "currency": 1,
